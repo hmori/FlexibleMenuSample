@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6DA9053162BEC01003EBABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA9052162BEC01003EBABF /* UIKit.framework */; };
+		B6DA9055162BEC01003EBABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA9054162BEC01003EBABF /* Foundation.framework */; };
+		B6DA9057162BEC01003EBABF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA9056162BEC01003EBABF /* CoreGraphics.framework */; };
+		B6DA905D162BEC01003EBABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6DA905B162BEC01003EBABF /* InfoPlist.strings */; };
+		B6DA905F162BEC01003EBABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA905E162BEC01003EBABF /* main.m */; };
+		B6DA9063162BEC01003EBABF /* FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA9062162BEC01003EBABF /* FMAppDelegate.m */; };
+		B6DA9065162BEC01003EBABF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DA9064162BEC01003EBABF /* Default.png */; };
+		B6DA9067162BEC01003EBABF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DA9066162BEC01003EBABF /* Default@2x.png */; };
+		B6DA9069162BEC01003EBABF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DA9068162BEC01003EBABF /* Default-568h@2x.png */; };
+		B6DA9072162BED2D003EBABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DA9070162BED2D003EBABF /* Main.storyboard */; };
+		B6DA9074162BF0DA003EBABF /* hmori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B6DA9073162BF0DA003EBABF /* hmori.jpeg */; };
+		B6DA9077162BF22A003EBABF /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6DA9075162BF22A003EBABF /* Menu.plist */; };
+		B6DA907D162BF2C4003EBABF /* FMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA907C162BF2C4003EBABF /* FMMenuViewController.m */; };
+		B6DA9080162C00F2003EBABF /* FMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA907F162C00F2003EBABF /* FMWebViewController.m */; };
+		B6DA9083162C0249003EBABF /* FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA9082162C0249003EBABF /* FMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6DA904E162BEC01003EBABF /* FlexibleMenuSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleMenuSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DA9052162BEC01003EBABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6DA9054162BEC01003EBABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6DA9056162BEC01003EBABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6DA905A162BEC01003EBABF /* FlexibleMenuSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleMenuSample-Info.plist"; sourceTree = "<group>"; };
+		B6DA905C162BEC01003EBABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6DA905E162BEC01003EBABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6DA9060162BEC01003EBABF /* FlexibleMenuSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlexibleMenuSample-Prefix.pch"; sourceTree = "<group>"; };
+		B6DA9061162BEC01003EBABF /* FMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAppDelegate.h; sourceTree = "<group>"; };
+		B6DA9062162BEC01003EBABF /* FMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAppDelegate.m; sourceTree = "<group>"; };
+		B6DA9064162BEC01003EBABF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6DA9066162BEC01003EBABF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6DA9068162BEC01003EBABF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6DA9071162BED2D003EBABF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6DA9073162BF0DA003EBABF /* hmori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hmori.jpeg; sourceTree = "<group>"; };
+		B6DA9076162BF22A003EBABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Menu.plist; sourceTree = "<group>"; };
+		B6DA907B162BF2C4003EBABF /* FMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMenuViewController.h; sourceTree = "<group>"; };
+		B6DA907C162BF2C4003EBABF /* FMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMenuViewController.m; sourceTree = "<group>"; };
+		B6DA907E162C00F2003EBABF /* FMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWebViewController.h; sourceTree = "<group>"; };
+		B6DA907F162C00F2003EBABF /* FMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWebViewController.m; sourceTree = "<group>"; };
+		B6DA9081162C0249003EBABF /* FMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMViewController.h; sourceTree = "<group>"; };
+		B6DA9082162C0249003EBABF /* FMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6DA904B162BEC01003EBABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA9053162BEC01003EBABF /* UIKit.framework in Frameworks */,
+				B6DA9055162BEC01003EBABF /* Foundation.framework in Frameworks */,
+				B6DA9057162BEC01003EBABF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6DA9043162BEC01003EBABF = {
+			isa = PBXGroup;
+			children = (
+				B6DA9058162BEC01003EBABF /* FlexibleMenuSample */,
+				B6DA9051162BEC01003EBABF /* Frameworks */,
+				B6DA904F162BEC01003EBABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6DA904F162BEC01003EBABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA904E162BEC01003EBABF /* FlexibleMenuSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6DA9051162BEC01003EBABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA9052162BEC01003EBABF /* UIKit.framework */,
+				B6DA9054162BEC01003EBABF /* Foundation.framework */,
+				B6DA9056162BEC01003EBABF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6DA9058162BEC01003EBABF /* FlexibleMenuSample */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA9061162BEC01003EBABF /* FMAppDelegate.h */,
+				B6DA9062162BEC01003EBABF /* FMAppDelegate.m */,
+				B6DA907B162BF2C4003EBABF /* FMMenuViewController.h */,
+				B6DA907C162BF2C4003EBABF /* FMMenuViewController.m */,
+				B6DA9081162C0249003EBABF /* FMViewController.h */,
+				B6DA9082162C0249003EBABF /* FMViewController.m */,
+				B6DA907E162C00F2003EBABF /* FMWebViewController.h */,
+				B6DA907F162C00F2003EBABF /* FMWebViewController.m */,
+				B6DA9059162BEC01003EBABF /* Supporting Files */,
+				B6DA906F162BECD2003EBABF /* Storyboard */,
+			);
+			path = FlexibleMenuSample;
+			sourceTree = "<group>";
+		};
+		B6DA9059162BEC01003EBABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA9073162BF0DA003EBABF /* hmori.jpeg */,
+				B6DA905A162BEC01003EBABF /* FlexibleMenuSample-Info.plist */,
+				B6DA905B162BEC01003EBABF /* InfoPlist.strings */,
+				B6DA905E162BEC01003EBABF /* main.m */,
+				B6DA9060162BEC01003EBABF /* FlexibleMenuSample-Prefix.pch */,
+				B6DA9064162BEC01003EBABF /* Default.png */,
+				B6DA9066162BEC01003EBABF /* Default@2x.png */,
+				B6DA9068162BEC01003EBABF /* Default-568h@2x.png */,
+				B6DA9075162BF22A003EBABF /* Menu.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6DA906F162BECD2003EBABF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA9070162BED2D003EBABF /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6DA904D162BEC01003EBABF /* FlexibleMenuSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DA906C162BEC01003EBABF /* Build configuration list for PBXNativeTarget "FlexibleMenuSample" */;
+			buildPhases = (
+				B6DA904A162BEC01003EBABF /* Sources */,
+				B6DA904B162BEC01003EBABF /* Frameworks */,
+				B6DA904C162BEC01003EBABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexibleMenuSample;
+			productName = FlexibleMenuSample;
+			productReference = B6DA904E162BEC01003EBABF /* FlexibleMenuSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6DA9045162BEC01003EBABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hidetoshi Mori";
+			};
+			buildConfigurationList = B6DA9048162BEC01003EBABF /* Build configuration list for PBXProject "FlexibleMenuSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6DA9043162BEC01003EBABF;
+			productRefGroup = B6DA904F162BEC01003EBABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DA904D162BEC01003EBABF /* FlexibleMenuSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6DA904C162BEC01003EBABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA905D162BEC01003EBABF /* InfoPlist.strings in Resources */,
+				B6DA9065162BEC01003EBABF /* Default.png in Resources */,
+				B6DA9067162BEC01003EBABF /* Default@2x.png in Resources */,
+				B6DA9069162BEC01003EBABF /* Default-568h@2x.png in Resources */,
+				B6DA9072162BED2D003EBABF /* Main.storyboard in Resources */,
+				B6DA9074162BF0DA003EBABF /* hmori.jpeg in Resources */,
+				B6DA9077162BF22A003EBABF /* Menu.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6DA904A162BEC01003EBABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA905F162BEC01003EBABF /* main.m in Sources */,
+				B6DA9063162BEC01003EBABF /* FMAppDelegate.m in Sources */,
+				B6DA907D162BF2C4003EBABF /* FMMenuViewController.m in Sources */,
+				B6DA9080162C00F2003EBABF /* FMWebViewController.m in Sources */,
+				B6DA9083162C0249003EBABF /* FMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6DA905B162BEC01003EBABF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DA905C162BEC01003EBABF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6DA9070162BED2D003EBABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DA9071162BED2D003EBABF /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6DA9075162BF22A003EBABF /* Menu.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DA9076162BF22A003EBABF /* en */,
+			);
+			name = Menu.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6DA906A162BEC01003EBABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6DA906B162BEC01003EBABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6DA906D162BEC01003EBABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlexibleMenuSample/FlexibleMenuSample-Prefix.pch";
+				INFOPLIST_FILE = "FlexibleMenuSample/FlexibleMenuSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6DA906E162BEC01003EBABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlexibleMenuSample/FlexibleMenuSample-Prefix.pch";
+				INFOPLIST_FILE = "FlexibleMenuSample/FlexibleMenuSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6DA9048162BEC01003EBABF /* Build configuration list for PBXProject "FlexibleMenuSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA906A162BEC01003EBABF /* Debug */,
+				B6DA906B162BEC01003EBABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DA906C162BEC01003EBABF /* Build configuration list for PBXNativeTarget "FlexibleMenuSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA906D162BEC01003EBABF /* Debug */,
+				B6DA906E162BEC01003EBABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6DA9045162BEC01003EBABF /* Project object */;
+}
